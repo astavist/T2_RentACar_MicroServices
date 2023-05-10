@@ -4,77 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0a0ad539-7034-4d76-b8b0-c854a42962f8/storage_v2/_src_/database/inventorydb-t2.EdJD_g/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/CommonPackageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/configuration/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/utils/annotations/NotFutureYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/utils/annotations/NotFutureYearValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/utils/constants/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/kodlamaio/commonpackage/utils/mappers/ModelMapperService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-package/src/test/java/kodlamaio/commonpackage/CommonPackageApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/api/controllers/BrandsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/api/controllers/CarsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/api/controllers/ModelsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/abstracts/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/abstracts/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/abstracts/ModelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/concretes/BrandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/concretes/CarManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/concretes/ModelManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/create/CreateBrandRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/create/CreateModelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/update/UpdateBrandRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/requests/update/UpdateModelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/create/CreateBrandResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/create/CreateCarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/create/CreateModelResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetAllBrandsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetAllCarsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetAllModelsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetBrandResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetCarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/get/GetModelResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/update/UpdateBrandResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/update/UpdateCarResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/dto/responses/update/UpdateModelResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/rules/BrandRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/rules/CarRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/business/rules/ModelRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/configuration/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/entities/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/entities/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/entities/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/entities/enums/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/repository/BrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/repository/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/repository/ModelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="03_05_MService_SecondClass">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfb07e21-036a-4f67-a0a9-f3835db9f96d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/kodlamaio/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/kodlamaio/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/kodlamaio/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/kodlamaio/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/FilterServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/api/controllers/FiltersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/abstracts/FilterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/concretes/FilterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/dto/responses/GetAllFiltersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/dto/responses/GetFilterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/configuration/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/entities/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/repository/FilterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/test/java/com/turkcell/filterservice/FilterServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/kodlamaio/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +77,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4e402037-65e6-4727-aec7-9c29e06a06f0" />
+        <option name="url" value="https://github.com/astavist/microservices-t2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -119,6 +110,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -130,31 +122,66 @@
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/SAMET/Desktop/microservices-t2",
+    "last_opened_file_path": "C:/Users/SAMET/Desktop/microservices-t2/api-gateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6fe36ed63cb672a14ff8cc625fe8ca26",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "7c2a4934ac7244e86c157e35b516ad04",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "postgresql"
+      "postgresql",
+      "mongo"
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMET\Desktop\microservices-t2\filter-service\src\main\java\com\turkcell\filterservice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SAMET\Desktop\microservices-t2" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication (1)">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="DiscoveryServerApplication" />
+              <option value="DiscoveryServiceApplication" />
+              <option value="DiscoveryServiceApplication (1)" />
+              <option value="InventoryServiceApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication (1)">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommonPackageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="common-package" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kodlamaio.commonpackage.CommonPackageApplication" />
@@ -162,9 +189,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="DiscoveryServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryserver.DiscoveryServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodlamaio.discoveryserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="turkcell.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="turkcell.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="filter-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.turkcell.filterservice.FilterServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kodlamaio.inventoryservice.InventoryServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kodlamaio.inventoryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,6 +257,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kodlamaio.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.InventoryServiceApplication (1)" />
+        <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -188,7 +282,13 @@
       <workItem from="1682852618033" duration="8897000" />
       <workItem from="1682862214118" duration="99000" />
       <workItem from="1683131837309" duration="399000" />
-      <workItem from="1683132248178" duration="7239000" />
+      <workItem from="1683132248178" duration="7606000" />
+      <workItem from="1683305683397" duration="796000" />
+      <workItem from="1683369463463" duration="8958000" />
+      <workItem from="1683464702077" duration="3783000" />
+      <workItem from="1683673967177" duration="24000" />
+      <workItem from="1683730136886" duration="6138000" />
+      <workItem from="1683736428448" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -211,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682853290614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="03_05_MService_SecondClass">
+      <created>1683141865625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683141865626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +326,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="03_05_MService_SecondClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="03_05_MService_SecondClass" />
   </component>
 </project>
