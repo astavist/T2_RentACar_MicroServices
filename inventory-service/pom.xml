@@ -8,7 +8,7 @@
         <version>3.0.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>kodlamaio</groupId>
+    <groupId>com.kodlamaio</groupId>
     <artifactId>inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>inventory-service</name>
@@ -18,7 +18,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>kodlamaio</groupId>
+            <groupId>com.kodlamaio</groupId>
             <artifactId>common-package</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

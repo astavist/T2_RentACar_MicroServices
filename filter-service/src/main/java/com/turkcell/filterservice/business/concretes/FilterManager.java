@@ -1,11 +1,11 @@
 package com.turkcell.filterservice.business.concretes;
 
+import com.kodlamaio.commonpackage.utils.mappers.ModelMapperService;
 import com.turkcell.filterservice.business.abstracts.FilterService;
 import com.turkcell.filterservice.business.dto.responses.GetAllFiltersResponse;
 import com.turkcell.filterservice.business.dto.responses.GetFilterResponse;
 import com.turkcell.filterservice.entities.Filter;
 import com.turkcell.filterservice.repository.FilterRepository;
-import kodlamaio.commonpackage.utils.mappers.ModelMapperService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +21,9 @@ public class FilterManager implements FilterService {
     @Override
     public List<GetAllFiltersResponse> getAll() {
         var filters = repository.findAll();
-        var response = filters.stream().map(filter -> mapper.forResponse().map(filter, GetAllFiltersResponse.class)).toList();
+        var response = filters.stream()
+                .map(filter -> mapper.forResponse().map(filter, GetAllFiltersResponse.class))
+                .toList();
         return response;
     }
 
@@ -34,7 +36,6 @@ public class FilterManager implements FilterService {
 
     @Override
     public void add(Filter filter) {
-        filter.setId(UUID.randomUUID());
         repository.save(filter);
     }
 
@@ -44,12 +45,22 @@ public class FilterManager implements FilterService {
     }
 
     @Override
-    public void deleteAllByBrandId(UUID brandId) {
+    public void deleteByCarId(UUID carId) {
+        repository.deleteByCarId(carId);
+    }
 
+    @Override
+    public void deleteAllByBrandId(UUID brandId) {
+        repository.deleteAllByBrandId(brandId);
     }
 
     @Override
     public void deleteAllByModelId(UUID modelId) {
+        repository.deleteAllByModelId(modelId);
+    }
 
+    @Override
+    public Filter getByCarId(UUID carId) {
+        return repository.findByCarId(carId);
     }
 }
