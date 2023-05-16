@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="KonuTekrarı_Duzenleme_MS_5thClass">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/kodlamaio/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/kodlamaio/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="KonuTekrarı_Duzenleme_MS_5thClass" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +257,7 @@
       <workItem from="1683736428448" duration="9550000" />
       <workItem from="1683977931885" duration="764000" />
       <workItem from="1684166845874" duration="5863000" />
-      <workItem from="1684244466963" duration="304000" />
+      <workItem from="1684244466963" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -308,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684176929372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="KonuTekrarı_Duzenleme_MS_5thClass">
+      <created>1684244803407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684244803407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
