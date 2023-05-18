@@ -28,7 +28,7 @@ public class FilterManager implements FilterService {
     }
 
     @Override
-    public GetFilterResponse getById(UUID id) {
+    public GetFilterResponse getById(String id) {
         var filter = repository.findById(id).orElseThrow();
         var response = mapper.forResponse().map(filter, GetFilterResponse.class);
         return response;
@@ -40,7 +40,7 @@ public class FilterManager implements FilterService {
     }
 
     @Override
-    public void delete(UUID id) {
+    public void delete(String id) {
         repository.deleteById(id);
     }
 
@@ -56,8 +56,9 @@ public class FilterManager implements FilterService {
 
     @Override
     public void deleteAllByModelId(UUID modelId) {
-        repository.deleteAllByModelId(modelId);
+
     }
+
 
     @Override
     public Filter getByCarId(UUID carId) {
