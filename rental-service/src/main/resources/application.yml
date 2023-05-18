@@ -20,6 +20,12 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
+resilience4j:
+  retry:
+    instances:
+      rentalToInventory:
+        max-attempts: 5
+        wait-duration: 15s
 eureka:
   client:
     fetch-registry: true
