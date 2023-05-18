@@ -1,6 +1,6 @@
 package com.kodlamaio.commonpackage.utils.constants;
 
 public class Regex {
-    public static final String plate = "^(\\d{2}\\s[a-zA-Z]{3}\\s\\d{3})|(\\d{2}\\s[a-zA-Z]{2}\\s\\d{4})$";
+    public static final String plate = "^(0[1-9]|[1-7][0-9]|8[01]) [A-Z]{1,3} \\d{3,4}$";
 
 }

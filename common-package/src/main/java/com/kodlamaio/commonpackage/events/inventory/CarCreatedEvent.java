@@ -21,5 +21,5 @@ public class CarCreatedEvent {
     private String state;
     private double dailyPrice;
     private String modelName;
-    private String modelBrandName;
+    private String brandName;
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/microservices-t2.iml" filepath="$PROJECT_DIR$/microservices-t2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T2_RentACar_MicroServices.iml" filepath="$PROJECT_DIR$/T2_RentACar_MicroServices.iml" />
     </modules>
   </component>
 </project>

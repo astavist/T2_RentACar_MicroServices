@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="fixing missing files" />
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Added README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/repository/FilterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/repository/FilterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/kafka/producer/InventoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/kafka/producer/InventoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-t2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/T2_RentACar_MicroServices.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +83,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SAMET/Desktop/microservices-t2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SAMET/Desktop/turkcell2-microservice-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -264,6 +269,12 @@
       <workItem from="1684166845874" duration="5863000" />
       <workItem from="1684244466963" duration="655000" />
       <workItem from="1684247656578" duration="165000" />
+      <workItem from="1684250450244" duration="1226000" />
+      <workItem from="1684259941017" duration="171000" />
+      <workItem from="1684260149655" duration="152000" />
+      <workItem from="1684341182066" duration="1395000" />
+      <workItem from="1684348349096" duration="19000" />
+      <workItem from="1684420341515" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -321,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684246938464</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added README.md">
+      <created>1684250490552</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684250490552</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +363,7 @@
     <MESSAGE value="KonuTekrarı_Düzenleme_MS_5thClass" />
     <MESSAGE value="KonuTekrarı_Duzenleme_MS_5thClass" />
     <MESSAGE value="fixing missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing missing files" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
 </project>
