@@ -16,6 +16,7 @@ Author: Samet Yılmaz
 10/05/2023 - Added APIGateway_FilterService
 13/05/2023 - Added DiscoveryService
 14/05/2023 - Added RentalService
+18/05/2023 - Update Services with Kafka-OpenFeign
 
 ```
 
