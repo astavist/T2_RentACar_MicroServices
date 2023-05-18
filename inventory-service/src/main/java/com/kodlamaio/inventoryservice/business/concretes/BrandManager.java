@@ -70,6 +70,7 @@ public class BrandManager implements BrandService {
     @Override
     public void delete(UUID id) {
         rules.checkIfBrandExists(id);
+        sendKafkaBrandDeletedEvent(id);
         repository.deleteById(id);
     }
 
