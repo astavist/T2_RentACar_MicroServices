@@ -17,6 +17,7 @@ Author: Samet Yılmaz
 13/05/2023 - Added DiscoveryService
 14/05/2023 - Added RentalService
 18/05/2023 - Update Services with Kafka-OpenFeign
+18/05/2023 - Added Workshop element (rental-service @retry annotation)
 
 ```
 
