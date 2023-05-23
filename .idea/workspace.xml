@@ -4,20 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Fixing Bugs">
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/events/maintenance/MaintenanceCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/events/maintenance/MaintenanceDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/dto/CreateRentalPaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/dto/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/kafka/consumer/MaintenanceConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/kafka/consumer/MaintenanceConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/MaintenanceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/api/clients/CarClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/api/clients/CarClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/api/controllers/MaintenanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/abstracts/MaintenanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/conctretes/MaintenanceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/requests/CreateMaintenanceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/requests/UpdateMaintenanceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/responses/CreateMaintenanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/responses/GetAllMaintenancesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/responses/GetMaintenanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/dto/responses/UpdateMaintenanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/business/rules/MaintenanceBusinessRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/entities/Maintenance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/java/com/kodlamaio/maintenanceservice/repository/MaintenanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenance-service/src/test/java/com/kodlamaio/maintenanceservice/MaintenanceServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/PaymentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/adapters/FakePosServiceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/api/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/abstracts/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/abstracts/PosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/concretes/PaymentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/request/CreatePaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/request/UpdatePaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/response/CreatePaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/response/GetAllPaymentsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/response/GetPaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/dto/response/UpdatePaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/business/rules/PaymentBusinessRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/test/java/com/kodlamaio/paymentservice/PaymentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/PaymentServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/adapters/FakePosServiceAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/api/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/abstracts/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/abstracts/PosService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/concretes/PaymentManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/request/CreatePaymentRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/request/UpdatePaymentRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/response/CreatePaymentResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/response/GetAllPaymentsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/response/GetPaymentResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/dto/response/UpdatePaymentResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/business/rules/PaymentBusinessRules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/entity/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/repository/PaymentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/BrandDeletedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/BrandDeletedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/CarCreatedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/CarCreatedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/CarDeletedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/inventory/CarDeletedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/rental/RentalCreatedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/events/rental/RentalCreatedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/constants/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/constants/Regex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/abstracts/FilterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/abstracts/FilterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/dto/responses/GetAllFiltersResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/dto/responses/GetAllFiltersResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/dto/responses/GetFilterResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/business/dto/responses/GetFilterResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/repository/FilterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service/target/classes/com/turkcell/filterservice/repository/FilterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/abstracts/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/abstracts/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/kafka/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/kafka/producer/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/constants/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/constants/Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/src/main/java/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/constants/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/constants/Paths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/target/classes/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/api/controllers/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/api/controllers/CarsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/InventoryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/api/controllers/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/api/controllers/CarsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/concretes/RentalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/concretes/RentalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/dto/requests/CreateRentalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/dto/requests/CreateRentalRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/kafka/producer/RentalProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/rules/RentalBusinessRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/rules/RentalBusinessRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +174,7 @@
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/SAMET/Desktop/T2_RentACar_MicroServices",
+    "last_opened_file_path": "C:/Users/SAMET/Desktop/microservice-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,6 +202,7 @@
       <recent name="C:\Users\SAMET\Desktop\microservices-t2\filter-service\src\main\java\com\turkcell\filterservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMET\Desktop\T2_RentACar_MicroServices" />
       <recent name="C:\Users\SAMET\Desktop\microservices-t2" />
     </key>
   </component>
@@ -247,6 +325,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaintenanceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="maintenance-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.maintenanceservice.MaintenanceServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RentalServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="rental-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.rentalservice.RentalServiceApplication" />
@@ -254,6 +346,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.CommonPackageApplication" />
+      <item itemvalue="Spring Boot.CommonPackageApplication (1)" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication (1)" />
+      <item itemvalue="Spring Boot.FilterServiceApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.MaintenanceServiceApplication" />
+      <item itemvalue="Spring Boot.PaymentServiceApplication" />
+      <item itemvalue="Spring Boot.RentalServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
@@ -290,7 +397,14 @@
       <workItem from="1684348349096" duration="19000" />
       <workItem from="1684420341515" duration="218000" />
       <workItem from="1684420576756" duration="3374000" />
-      <workItem from="1684425921892" duration="2183000" />
+      <workItem from="1684425921892" duration="2395000" />
+      <workItem from="1684450324806" duration="573000" />
+      <workItem from="1684504681641" duration="271000" />
+      <workItem from="1684504965836" duration="1400000" />
+      <workItem from="1684583699054" duration="3736000" />
+      <workItem from="1684665426543" duration="386000" />
+      <workItem from="1684674414662" duration="805000" />
+      <workItem from="1684860131798" duration="4019000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -397,7 +511,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684427538113</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixing Bugs">
+      <created>1684428172125</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684428172125</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added Workshop(@retry to fallback rental-service)">
+      <created>1684450723132</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684450723132</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated README.md">
+      <created>1684450814159</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684450814159</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,6 +563,8 @@
     <MESSAGE value="Update Rental-Service with new client-oriented common producers" />
     <MESSAGE value="Add New delete events to common-package" />
     <MESSAGE value="Fixing Bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Bugs" />
+    <MESSAGE value="Added Workshop(@retry to fallback rental-service)" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

@@ -7,14 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="inventory-service" />
+        <module name="discovery-server" />
+        <module name="maintenance-service" />
+        <module name="payment-service" />
+        <module name="common-package" />
         <module name="api-gateway" />
         <module name="filter-service" />
         <module name="rental-service" />
-        <module name="inventory-service" />
-        <module name="discovery-server" />
-        <module name="common-package" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asdas" target="19" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -23,6 +28,8 @@
       <module name="discovery-server" options="-parameters" />
       <module name="filter-service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="maintenance-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
       <module name="rental-service" options="-parameters" />
     </option>
   </component>
