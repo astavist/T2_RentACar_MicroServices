@@ -7,6 +7,11 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+  config:
+    import: optional:configserver:http://localhost:8888
+  profiles:
+    active: dev
+
 eureka:
   client:
     fetch-registry: true
@@ -16,5 +21,7 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${random.value}}
     prefer-ip-address: true
-server:
-  port: 9010
+#server:
+#  port: 9010
+
+
