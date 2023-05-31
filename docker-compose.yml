@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   kafka:
     container_name: kafka-t2
@@ -8,15 +7,32 @@ services:
       - "9092:9092"
     volumes:
       - kafka_data:/opt/kafka/kafka-logs
-
   mongodb:
-    container_name: turkcell2-filterdb
+    container_name: turkcell-filterdb-mongodb
     image: mongo
     ports:
       - "27017:27017"
     volumes:
       - mongodb_data:/data/db
-
+  mongodbInvoice:
+    container_name: turkcell-invoicedb-mongodb
+    image: mongo
+    command: mongod --port 27018
+    ports:
+      - "27018:27018"
+    volumes:
+      - mongodb_data:/data/turkcell-invoicedb
+  inventorydb:
+    container_name: turkcell-inventorydb-mysql
+    image: mysql
+    ports:
+      - "3307:3307"
+    environment:
+      - MYSQL_TCP_PORT=3307
+      - VIRTUAL_PORT=3307
+    volumes:
+      - inventorydb:/data/db
 volumes:
   kafka_data:
   mongodb_data:
+  inventorydb:
