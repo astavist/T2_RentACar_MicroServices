@@ -7,11 +7,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.UUID;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class UpdateBrandRequest {
+    @NotBlank
+    private UUID id;
     @NotBlank
     @Size(min = 2, max = 20)
     private String name;

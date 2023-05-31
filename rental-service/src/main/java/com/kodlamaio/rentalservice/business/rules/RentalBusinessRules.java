@@ -1,5 +1,6 @@
 package com.kodlamaio.rentalservice.business.rules;
 
+import com.kodlamaio.commonpackage.utils.constants.Messages;
 import com.kodlamaio.commonpackage.utils.dto.CreateRentalPaymentRequest;
 import com.kodlamaio.commonpackage.utils.exceptions.BusinessException;
 import com.kodlamaio.rentalservice.api.clients.CarClient;
@@ -19,7 +20,7 @@ public class RentalBusinessRules {
 
     public void checkIfRentalExists(UUID id) {
         if (!repository.existsById(id)) {
-            throw new BusinessException("RENTAL_NOT_EXISTS");
+            throw new BusinessException(Messages.Rental.NotExists);
         }
     }
 

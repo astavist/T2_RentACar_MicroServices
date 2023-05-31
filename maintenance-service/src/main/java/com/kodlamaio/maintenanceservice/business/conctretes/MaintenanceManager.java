@@ -85,12 +85,6 @@ public class MaintenanceManager implements MaintenanceService {
         repository.deleteById(id);
     }
 
-    /* private void makeCarAvailableIfIsCompletedFalse(UUID id) {
-         UUID carId = repository.findById(id).get().getCar().getId();
-         if (repository.existsByCarIdAndIsCompletedIsFalse(carId)) {
-             carService.changeState(carId, State.AVAILABLE);
-         }
-     } */
     private void sendKafkaMaintenanceCreatedEvent(UUID carId) {
         producer.sendMessage(new MaintenanceCreatedEvent(carId), "maintenance-created");
     }

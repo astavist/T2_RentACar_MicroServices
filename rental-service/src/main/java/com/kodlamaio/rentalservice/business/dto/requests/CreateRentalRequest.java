@@ -21,6 +21,7 @@ public class CreateRentalRequest {
     private double dailyPrice;
     @Min(1)
     private int rentedForDays;
+
     private PaymentRequest paymentRequest;
 }
 

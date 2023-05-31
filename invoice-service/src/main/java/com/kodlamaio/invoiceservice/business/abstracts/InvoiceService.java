@@ -5,12 +5,11 @@ import com.kodlamaio.invoiceservice.business.dto.responses.get.GetInvoiceRespons
 import com.kodlamaio.invoiceservice.entities.Invoice;
 
 import java.util.List;
-import java.util.UUID;
 
 public interface InvoiceService {
     List<GetAllInvoicesResponse> getAll();
 
-    GetInvoiceResponse getById(UUID id);
+    GetInvoiceResponse getById(String id);
 
     void add(Invoice invoice);
 }

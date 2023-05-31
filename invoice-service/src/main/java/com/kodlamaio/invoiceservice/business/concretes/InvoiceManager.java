@@ -12,7 +12,6 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 @AllArgsConstructor
@@ -31,7 +30,7 @@ public class InvoiceManager implements InvoiceService {
     }
 
     @Override
-    public GetInvoiceResponse getById(UUID id) {
+    public GetInvoiceResponse getById(String id) {
         rules.checkIfInvoiceExists(id);
         Invoice invoice = repository.findById(id).get();
         GetInvoiceResponse response = mapper.forResponse().map(invoice, GetInvoiceResponse.class);

@@ -1,6 +1,6 @@
 package com.kodlamaio.paymentservice.business.rules;
 
-import com.kodlamaio.commonpackage.utils.dto.CreateRentalPaymentRequest;
+import com.kodlamaio.commonpackage.utils.constants.Messages;
 import com.kodlamaio.commonpackage.utils.dto.PaymentRequest;
 import com.kodlamaio.commonpackage.utils.exceptions.BusinessException;
 import com.kodlamaio.paymentservice.repository.PaymentRepository;
@@ -16,19 +16,19 @@ public class PaymentBusinessRules {
 
     public void checkIfPaymentExists(UUID id) {
         if (!repository.existsById(id)) {
-            throw new BusinessException("Messages.Payment.NotFound");
+            throw new BusinessException(Messages.Payment.NotFound);
         }
     }
 
     public void checkIfBalanceIdEnough(double balance, double price) {
         if (balance < price) {
-            throw new BusinessException("Messages.Payment.NotEnoughMoney");
+            throw new BusinessException(Messages.Payment.NotEnoughMoney);
         }
     }
 
     public void checkIfCardExists(String cardNumber) {
         if (repository.existsByCardNumber(cardNumber)) {
-            throw new BusinessException("Messages.Payment.CardNumberAlreadyExists");
+            throw new BusinessException(Messages.Payment.CardNumberAlreadyExists);
         }
     }
 
@@ -40,7 +40,7 @@ public class PaymentBusinessRules {
                 request.getCardExpirationMonth(),
                 request.getCardCvv()
         )) {
-            throw new BusinessException("Messages.Payment.NotAValidPayment");
+            throw new BusinessException(Messages.Payment.NotAValidPayment);
         }
     }
 }

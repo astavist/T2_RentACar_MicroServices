@@ -77,6 +77,7 @@ public class RentalManager implements RentalService {
 
         repository.save(rental);
         sendKafkaRentalCreatedEvent(request.getCarId());
+        sendKafkaRentalPaymentCreatedEvent(rentalPaymentCreatedEvent);
         var response = mapper.forResponse().map(rental, CreateRentalResponse.class);
 
         return response;
@@ -106,6 +107,10 @@ public class RentalManager implements RentalService {
 
     private void sendKafkaRentalCreatedEvent(UUID carId) {
         producer.sendMessage(new RentalCreatedEvent(carId), "rental-created");
+    }
+
+    private void sendKafkaRentalPaymentCreatedEvent(RentalPaymentCreatedEvent event) {
+        producer.sendMessage(event, "rental-payment-created");
     }
 
     private void sendKafkaRentalDeletedEvent(UUID carId) {

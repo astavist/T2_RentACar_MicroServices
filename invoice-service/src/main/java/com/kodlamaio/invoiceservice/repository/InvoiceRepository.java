@@ -1,9 +1,7 @@
 package com.kodlamaio.invoiceservice.repository;
 
 import com.kodlamaio.invoiceservice.entities.Invoice;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-import java.util.UUID;
-
-public interface InvoiceRepository extends JpaRepository<Invoice, UUID> {
+public interface InvoiceRepository extends MongoRepository<Invoice, String> {
 }
