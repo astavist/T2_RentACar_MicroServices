@@ -18,6 +18,10 @@ Author: Samet Yılmaz
 14/05/2023 - Added RentalService
 18/05/2023 - Update Services with Kafka-OpenFeign
 18/05/2023 - Added Workshop element (rental-service @retry annotation)
+20/05/2023 - Added Maintenance Service
+21/05/2023 - Added Payment Service
+24/05/2023 - Added Config Server
+27/05/2023 - Added Invoice Service
 
 ```
 
@@ -44,5 +48,9 @@ image.1
 - OpenFeign
 
 - Netflix Eureka
+
+- MySql
+
+- Mongo
 
 ![Logo](https://turkiye.ai/wp-content/uploads/2021/07/turkcell-gelecegi-yazanlar.png)
