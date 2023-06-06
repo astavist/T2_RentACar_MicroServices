@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Fixing docs,typos">
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Added keycloak">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-package/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/SAMET/Desktop/T2_E-Commerce_MicroServices",
+    "last_opened_file_path": "C:/Users/SAMET/Desktop/config-server-t2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +95,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "me.rerere.discordij.setting.DiscordIJConfigurableProject",
     "spring.configuration.checksum": "f8c27c37dec3aaabfc847945ac0a8a69",
     "vue.rearranger.settings.migration": "true"
   },
@@ -126,23 +125,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <set>
-              <option value="CommonPackageApplication" />
-              <option value="DiscoveryServerApplication" />
-              <option value="DiscoveryServiceApplication" />
-              <option value="DiscoveryServiceApplication (1)" />
-              <option value="InventoryServiceApplication (1)" />
-            </set>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication (1)">
+  <component name="RunManager" selected="Spring Boot.InvoiceServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.apigateway.ApiGatewayApplication" />
@@ -153,13 +137,6 @@
     <configuration name="CommonPackageApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="common-package" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.commonpackage.CommonPackageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonPackageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="common-package" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="kodlamaio.commonpackage.CommonPackageApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,13 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="turkcell.discoveryserver.DiscoveryServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryserver.DiscoveryServerApplication" />
@@ -198,36 +168,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryservice.DiscoveryServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="turkcell.discoveryservice.DiscoveryServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FilterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="filter-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.turkcell.filterservice.FilterServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="inventory-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="kodlamaio.inventoryservice.InventoryServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kodlamaio.inventoryservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,26 +218,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       <item itemvalue="Spring Boot.InvoiceServiceApplication" />
       <item itemvalue="Spring Boot.InventoryServiceApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.PaymentServiceApplication" />
       <item itemvalue="Spring Boot.RentalServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.CommonPackageApplication" />
       <item itemvalue="Spring Boot.CommonPackageApplication (1)" />
-      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
-      <item itemvalue="Spring Boot.DiscoveryServiceApplication (1)" />
       <item itemvalue="Spring Boot.FilterServiceApplication" />
       <item itemvalue="Spring Boot.MaintenanceServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
-      <item itemvalue="Spring Boot.InventoryServiceApplication (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
-        <item itemvalue="Spring Boot.InventoryServiceApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +281,20 @@
       <workItem from="1685551028084" duration="23000" />
       <workItem from="1685551061977" duration="3269000" />
       <workItem from="1685718325078" duration="32000" />
+      <workItem from="1685747458480" duration="250000" />
+      <workItem from="1685793557349" duration="600000" />
+      <workItem from="1685816960160" duration="97000" />
+      <workItem from="1685817068700" duration="165000" />
+      <workItem from="1685817245322" duration="233000" />
+      <workItem from="1685817502658" duration="246000" />
+      <workItem from="1685818690693" duration="1316000" />
+      <workItem from="1685820749641" duration="2318000" />
+      <workItem from="1685823211592" duration="17000" />
+      <workItem from="1685864644718" duration="6717000" />
+      <workItem from="1685874143927" duration="3923000" />
+      <workItem from="1685986613766" duration="78000" />
+      <workItem from="1686063645182" duration="1572000" />
+      <workItem from="1686066465364" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -526,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685550982715</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added keycloak">
+      <created>1685747511612</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685747511612</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,6 +525,7 @@
     <MESSAGE value="Added Config-server and fixing yml docs" />
     <MESSAGE value="Added invoice service" />
     <MESSAGE value="Fixing docs,typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing docs,typos" />
+    <MESSAGE value="Added keycloak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added keycloak" />
   </component>
 </project>
