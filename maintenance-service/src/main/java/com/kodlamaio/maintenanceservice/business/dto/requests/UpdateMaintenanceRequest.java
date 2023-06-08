@@ -17,7 +17,7 @@ public class UpdateMaintenanceRequest {
     @NotNull
     private UUID carId;
     private String information;
-    private boolean isCompleted;
+    private boolean completed;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
 }

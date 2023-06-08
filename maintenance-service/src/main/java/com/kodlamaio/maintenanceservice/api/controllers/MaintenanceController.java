@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/maintenances")
+@RequestMapping(value = "/api/maintenances", produces = "application/json")
 public class MaintenanceController {
     private final MaintenanceService service;
 
@@ -42,9 +42,8 @@ public class MaintenanceController {
         return service.update(id, request);
     }
 
-    @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void delete(@PathVariable UUID id) {
-        service.delete(id);
+    @PutMapping("/return")
+    public GetMaintenanceResponse returnCarFromMaintenance(@RequestParam UUID carId) {
+        return service.returnCarFromMaintenance(carId);
     }
 }

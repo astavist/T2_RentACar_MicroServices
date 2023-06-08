@@ -22,6 +22,13 @@ public class MaintenanceBusinessRules {
         }
     }
 
+    public void checkIfCarIsNotUnderMaintenance(UUID carId) {
+        if (!repository.existsByCarIdAndCompletedIsFalse(carId)) {
+            throw new BusinessException(Messages.Maintenance.CarNotExists);
+        }
+    }
+
+
     public void checkIfMaintenanceExists(UUID id) {
         if (!repository.existsById(id)) {
             throw new BusinessException(Messages.Maintenance.NotExists);
@@ -29,7 +36,7 @@ public class MaintenanceBusinessRules {
     }
 
     public void checkIfCarUnderMaintenance(UUID carId) {
-        if (repository.existsByCarIdAndIsCompletedIsFalse(carId)) {
+        if (repository.existsByCarIdAndCompletedIsFalse(carId)) {
             throw new BusinessException(Messages.Maintenance.UnderMaintenance);
         }
     }
