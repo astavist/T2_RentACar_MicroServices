@@ -1,6 +1,5 @@
 package com.turkcell.filterservice.business.kafka.consumer;
 
-import com.kodlamaio.commonpackage.events.inventory.BrandDeletedEvent;
 import com.kodlamaio.commonpackage.events.inventory.CarCreatedEvent;
 import com.kodlamaio.commonpackage.events.inventory.CarDeletedEvent;
 import com.kodlamaio.commonpackage.utils.mappers.ModelMapperService;
@@ -35,14 +34,5 @@ public class InventoryConsumer {
     public void consume(CarDeletedEvent event) {
         service.deleteByCarId(event.getCarId());
         log.info("Car deleted event consumed {}", event);
-    }
-
-    @KafkaListener(
-            topics = "brand-deleted",
-            groupId = "brand-delete"
-    )
-    public void consume(BrandDeletedEvent event) {
-        service.deleteAllByBrandId(event.getBrandId());
-        log.info("Brand deleted event consumed {}", event);
     }
 }
