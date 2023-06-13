@@ -8,7 +8,7 @@ public class Paths {
     }
 
     public static class Filter {
-        public static final String ServiceBasePackage = "com.kodlamaio.filterservice";
+        public static final String ServiceBasePackage = "com.turkcell.filterservice";
     }
 
     public static class Rental {
