@@ -4,9 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Added keycloak">
+    <list default="true" id="40fe70d0-13c7-4c21-835a-2f06c01385b7" name="Changes" comment="Update README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/209585e4-233b-454d-9f72-43093efe185e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/365c7e60-3411-468a-be15-92e54d12540a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/365c7e60-3411-468a-be15-92e54d12540a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/599d2217-5fbe-4446-bb3c-f5dcce0a321a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/599d2217-5fbe-4446-bb3c-f5dcce0a321a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f907b8b-715b-4795-946c-43510f16dad5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5f907b8b-715b-4795-946c-43510f16dad5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dfb07e21-036a-4f67-a0a9-f3835db9f96d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/api/controllers/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/api/controllers/CarsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/abstracts/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/abstracts/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/concretes/BrandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/concretes/CarManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/concretes/CarManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/api/controllers/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/api/controllers/CarsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/abstracts/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/abstracts/CarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/concretes/CarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/concretes/CarManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/create/CreateCarRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/kodlamaio/inventoryservice/business/dto/requests/update/UpdateCarRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/CreateInvoiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/CreateInvoiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/UpdateInvoiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/UpdateInvoiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/get/GetAllInvoicesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/get/GetAllInvoicesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/get/GetInvoiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/business/dto/responses/get/GetInvoiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/entities/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice-service/src/main/java/com/kodlamaio/invoiceservice/entities/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/api/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/kodlamaio/paymentservice/api/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/api/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/target/classes/com/kodlamaio/paymentservice/api/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/CarClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/api/clients/PaymentClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/concretes/RentalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/concretes/RentalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/dto/requests/CreateRentalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service/src/main/java/com/kodlamaio/rentalservice/business/dto/requests/CreateRentalRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +121,7 @@
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/SAMET/Desktop/config-server-t2",
+    "last_opened_file_path": "C:/Users/SAMET/Desktop/T2_RentACar_MicroServices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InvoiceServiceApplication">
+  <component name="RunManager" selected="Spring Boot.RentalServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.apigateway.ApiGatewayApplication" />
@@ -148,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryserver.DiscoveryServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodlamaio.discoveryserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.discoveryserver.DiscoveryServerApplication" />
@@ -178,6 +200,7 @@
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodlamaio.inventoryservice.InventoryServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,21 +243,15 @@
     <list>
       <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       <item itemvalue="Spring Boot.InvoiceServiceApplication" />
-      <item itemvalue="Spring Boot.InventoryServiceApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.PaymentServiceApplication" />
       <item itemvalue="Spring Boot.RentalServiceApplication" />
+      <item itemvalue="Spring Boot.MaintenanceServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.PaymentServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.CommonPackageApplication (1)" />
       <item itemvalue="Spring Boot.FilterServiceApplication" />
-      <item itemvalue="Spring Boot.MaintenanceServiceApplication" />
-      <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.DiscoveryServerApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -294,7 +311,21 @@
       <workItem from="1685874143927" duration="3923000" />
       <workItem from="1685986613766" duration="78000" />
       <workItem from="1686063645182" duration="1572000" />
-      <workItem from="1686066465364" duration="1019000" />
+      <workItem from="1686066465364" duration="1201000" />
+      <workItem from="1686147799791" duration="7294000" />
+      <workItem from="1686178320498" duration="12337000" />
+      <workItem from="1686242196902" duration="446000" />
+      <workItem from="1686242654052" duration="4113000" />
+      <workItem from="1686267254812" duration="660000" />
+      <workItem from="1686319559990" duration="3544000" />
+      <workItem from="1686330333412" duration="2787000" />
+      <workItem from="1686354704664" duration="7526000" />
+      <workItem from="1686380684526" duration="4301000" />
+      <workItem from="1686516287733" duration="9139000" />
+      <workItem from="1686526720548" duration="1079000" />
+      <workItem from="1686578268467" duration="2975000" />
+      <workItem from="1686691464568" duration="5236000" />
+      <workItem from="1686696811347" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1682852663755</created>
@@ -485,7 +516,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685747511612</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added keycloak">
+      <created>1686067656366</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686067656366</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated Maintenance(bug fixing,syntax,removed delete method)">
+      <created>1686245707563</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686245707563</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Bug fixing Removed keycloak">
+      <created>1686699740888</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686699740888</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update Filter-Service (fixing application path bug)">
+      <created>1686699811751</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686699811751</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update README.md">
+      <created>1686700004993</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686700004994</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,8 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <MESSAGE value="03_05_MService_SecondClass" />
     <MESSAGE value="10_05_MS_4thClass" />
     <MESSAGE value="KonuTekrarı_Düzenleme_MS_5thClass" />
     <MESSAGE value="KonuTekrarı_Duzenleme_MS_5thClass" />
@@ -526,6 +590,25 @@
     <MESSAGE value="Added invoice service" />
     <MESSAGE value="Fixing docs,typos" />
     <MESSAGE value="Added keycloak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added keycloak" />
+    <MESSAGE value="Updated Maintenance(bug fixing,syntax,removed delete method)" />
+    <MESSAGE value="Bug fixing Removed keycloak" />
+    <MESSAGE value="Update Filter-Service (fixing application path bug)" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="org.springframework.web.HttpMediaTypeNotAcceptableException" package="org.springframework.web" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/filter-service/src/main/java/com/turkcell/filterservice/business/kafka/consumer/InventoryConsumer.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

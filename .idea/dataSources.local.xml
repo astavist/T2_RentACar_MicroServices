@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-231.8109.175">
-    <data-source name="@localhost" uuid="dfb07e21-036a-4f67-a0a9-f3835db9f96d">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" exact-version="0" />
-      <schema-mapping />
-    </data-source>
     <data-source name="maintenancedb-t2@localhost" uuid="599d2217-5fbe-4446-bb3c-f5dcce0a321a">
       <database-info product="PostgreSQL" version="15.2" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.2" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -14,9 +10,7 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
+          <node kind="database" qname="maintenancedb-t2" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
@@ -29,9 +23,7 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
+          <node kind="database" qname="paymentdb-t2" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
@@ -44,17 +36,38 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
+          <node kind="database" qname="rentaldb-t2" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="filterdb-t2@localhost" uuid="209585e4-233b-454d-9f72-43093efe185e">
+    <data-source name="@localhost" uuid="c4cacabe-a902-453a-a62c-35f1d13e6565">
+      <database-info product="MySQL" version="8.0.33" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.33" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="inventorydb" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="filterdb@localhost [2]" uuid="eb858307-11d8-4e1f-9182-487b15cb2e82">
       <database-info product="Mongo DB" version="6.0.5" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="6.0.5" exact-driver-version="1.18" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
-      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="filterdb" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="invoicedb@localhost" uuid="73bdf588-bc32-4929-8589-73121e5fa9a5">
+      <database-info product="Mongo DB" version="6.0.5" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="6.0.5" exact-driver-version="1.18" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema" qname="@" />

@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   kafka:
-    container_name: kafka-t2
+    container_name: kafka
     image: bashj79/kafka-kraft
     ports:
       - "9092:9092"
@@ -9,45 +9,34 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
     volumes:
       - kafka_data:/opt/kafka/kafka-logs
-
-  keycloak:
-    image: quay.io/keycloak/keycloak:latest
-    container_name: keycloak-t2
-    environment:
-      KEYCLOAK_ADMIN: admin
-      KEYCLOAK_ADMIN_PASSWORD: admin
-    ports:
-      - "8080:8080"
-    command: start-dev
-    volumes:
-      - .:/opt/jboss/keycloak/imports
-
   mongodb:
-    container_name: turkcell-filterdb-mongodb
+    container_name: filterdb
     image: mongo
     ports:
       - "27017:27017"
     volumes:
-      - mongodb_data:/data/db
+      - filterdb:/data/filterdb
   mongodbInvoice:
-    container_name: turkcell-invoicedb-mongodb
+    container_name: invoicedb
     image: mongo
     command: mongod --port 27018
     ports:
       - "27018:27018"
     volumes:
-      - mongodb_data:/data/turkcell-invoicedb
+      - invoicedb:/data/invoicedb
   inventorydb:
-    container_name: turkcell-inventorydb-mysql
+    container_name: inventorydb
     image: mysql
     ports:
       - "3307:3307"
     environment:
       - MYSQL_TCP_PORT=3307
       - VIRTUAL_PORT=3307
+      - MYSQL_ROOT_PASSWORD=12345
     volumes:
-      - inventorydb:/data/db
+      - inventorydb:/data/db/inventorydb
 volumes:
   kafka_data:
-  mongodb_data:
+  filterdb:
+  invoicedb:
   inventorydb:
