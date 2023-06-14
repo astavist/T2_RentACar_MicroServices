@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 
 @Setter
 @Getter
+@Document
 @NoArgsConstructor
 @AllArgsConstructor
-@Document
 public class Invoice {
     @Id
     private String id;

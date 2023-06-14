@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateInvoiceResponse {
+    private String id;
     private String cardHolder;
     private String modelName;
     private String brandName;
