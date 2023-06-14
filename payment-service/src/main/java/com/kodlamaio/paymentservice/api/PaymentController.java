@@ -18,7 +18,7 @@ import java.util.UUID;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("/api/payments")
+@RequestMapping(value = "/api/payments", produces = "application/json")
 public class PaymentController {
     private final PaymentService service;
 
@@ -32,11 +32,12 @@ public class PaymentController {
     public GetPaymentResponse getById(@PathVariable UUID id) {
         return service.getById(id);
     }
-    @PostMapping("/process-rental-payment")
-    public ClientResponse processRentalPayment(@RequestBody CreateRentalPaymentRequest request)
-    {
+
+    @PostMapping("/check")
+    public ClientResponse processRentalPayment(@RequestBody CreateRentalPaymentRequest request) {
         return service.processRentalPayment(request);
     }
+
     @PostMapping
     public CreatePaymentResponse add(@Valid @RequestBody CreatePaymentRequest request) {
         return service.add(request);
