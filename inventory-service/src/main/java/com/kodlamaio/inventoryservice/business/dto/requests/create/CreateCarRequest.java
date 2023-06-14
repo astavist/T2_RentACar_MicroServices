@@ -21,7 +21,7 @@ public class CreateCarRequest {
     @NotNull
     private UUID modelId;
     @Min(value = 2000)
-    @NotFutureYear
+    @NotFutureYear(message = "model year cannot be in future")
     private int modelYear;
     @NotBlank
     @Pattern(regexp = Regex.plate)

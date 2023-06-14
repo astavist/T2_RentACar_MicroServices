@@ -1,6 +1,5 @@
 package com.kodlamaio.inventoryservice.api.controllers;
 
-import com.kodlamaio.commonpackage.utils.dto.CarClientResponse;
 import com.kodlamaio.commonpackage.utils.dto.ClientResponse;
 import com.kodlamaio.inventoryservice.business.abstracts.CarService;
 import com.kodlamaio.inventoryservice.business.dto.requests.create.CreateCarRequest;
@@ -18,7 +17,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/cars")
+@RequestMapping(value = "/api/cars", produces = "application/json")
 @AllArgsConstructor
 public class CarsController {
     private final CarService service;
@@ -55,8 +54,8 @@ public class CarsController {
         return service.checkIfCarAvailable(id);
     }
 
-    @GetMapping("/get-car-for-invoice/{carId}")
-    public CarClientResponse getCarForInvoice(@PathVariable UUID carId) {
-        return service.getCarForInvoice(carId);
+    @GetMapping("/feign/{id}")
+    public GetCarResponse getFeignCar(@PathVariable UUID id) {
+        return service.getById(id);
     }
 }
