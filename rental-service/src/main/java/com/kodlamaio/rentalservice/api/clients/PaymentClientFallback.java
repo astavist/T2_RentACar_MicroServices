@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 public class PaymentClientFallback implements PaymentClient {
     @Override
     public ClientResponse processRentalPayment(CreateRentalPaymentRequest request) {
-        log.info("PAYMENT SERVICE DOWN");
         throw new RuntimeException("PAYMENT_DOWN");
     }
 }

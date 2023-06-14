@@ -4,8 +4,8 @@ import com.kodlamaio.commonpackage.events.rental.RentalCreatedEvent;
 import com.kodlamaio.commonpackage.events.rental.RentalDeletedEvent;
 import com.kodlamaio.commonpackage.events.rentalPayment.RentalPaymentCreatedEvent;
 import com.kodlamaio.commonpackage.kafka.producer.KafkaProducer;
-import com.kodlamaio.commonpackage.utils.dto.CarClientResponse;
 import com.kodlamaio.commonpackage.utils.dto.CreateRentalPaymentRequest;
+import com.kodlamaio.commonpackage.utils.dto.GetCarResponse;
 import com.kodlamaio.commonpackage.utils.mappers.ModelMapperService;
 import com.kodlamaio.rentalservice.api.clients.CarClient;
 import com.kodlamaio.rentalservice.business.abstracts.RentalService;
@@ -59,16 +59,21 @@ public class RentalManager implements RentalService {
     public CreateRentalResponse add(CreateRentalRequest request) {
         rules.ensureCarIsAvailable(request.getCarId());
         var rental = mapper.forRequest().map(request, Rental.class);
-        rental.setId(null);
         rental.setTotalPrice(getTotalPrice(rental));
         rental.setRentedAt(LocalDate.now());
 
         CreateRentalPaymentRequest paymentRequest = new CreateRentalPaymentRequest();
-        mapper.forRequest().map(request.getPaymentRequest(), paymentRequest);
+//        mapper.forRequest().map(request, paymentRequest);
+        paymentRequest.setCardCvv(request.getCardCvv());
+        paymentRequest.setCardNumber(request.getCardNumber());
+        paymentRequest.setCardHolder(request.getCardHolder());
+        paymentRequest.setCardExpirationYear(request.getCardExpirationYear());
+        paymentRequest.setCardExpirationMonth(request.getCardExpirationMonth());
+
         paymentRequest.setPrice(getTotalPrice(rental));
         rules.ensurePaymentIsProcessed(paymentRequest);
 
-        CarClientResponse carClientResponse = carClient.getCar(request.getCarId());
+        GetCarResponse carClientResponse = carClient.getById(request.getCarId());
         RentalPaymentCreatedEvent rentalPaymentCreatedEvent = new RentalPaymentCreatedEvent();
         mapper.forRequest().map(request, rentalPaymentCreatedEvent);
         mapper.forRequest().map(carClientResponse, rentalPaymentCreatedEvent);
